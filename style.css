@@ -1,0 +1,70 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #222222;
+    text-align: center;
+}
+
+.heading {
+    font-size: 5vmin;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.container {
+    display: flex;
+    height: 70vmin;
+    align-items: center;
+    justify-content: center;
+}   
+
+.game {
+    /* background-color: pink; */
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2vmin;
+}
+
+.gameButtons {
+    font-size: 10vmin;
+    /* font-weight: bold; */
+    /* font-family: 'IBM Plex Mono', monospace; */
+
+    background-color: #169976;
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
+}
+
+.gameButtons:hover {
+    background-color: #1DCD9F;
+}
+
+#resetGameBtn {
+    font-size: 2vmin;
+    padding: 1vmin;
+    font-family: 'IBM Plex Mono', monospace;
+    background-color:#169976;
+    border: none;
+    border-radius: 10px;
+    color: black;
+}
+
+#resetGameBtn:hover {
+    background-color: #1DCD9F;
+    cursor:pointer
+}
+
+.winnermsg {
+    color: #1DCD9F;
+    font-weight: bold;
+    font-size: 10vmin;
+}
